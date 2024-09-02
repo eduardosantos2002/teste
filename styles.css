@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing:border-box ;
+
+}
+
+body{
+font-family:'robot', sans-serif ;
+}
+.nav{
+background-color: #181818;
+height: 80px;
+width: 100%;
+display:flex;
+justify-content:flex-end ;
+position: sticky;
+top: 0;
+z-index: 9;
+}
+
+.nav-list {
+display: flex;
+align-items: center;
+list-style: none;
+margin-right:25px ;
+
+}
+.nav-list a{
+text-decoration: none;
+color: #ddd;
+padding: 22px;
+
+}
+.nav-list a:hover {
+    color: #ffffff;
+}
+.main{
+    width: 100%;
+    background-color: black;
+    height: calc(100vh - 80px);
+    background-image: url("images/programador.png");
+    display:flex;
+    align-items: center;
+    
+    padding-left: 13%;
+}
+.main h1{
+    color: #ffffff;
+    font-size: 54px;
+}
+.main p{
+    font-size: 24px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 10px;
+    margin-bottom:35px ;
+}
+.call-to-action{
+    cursor:pointer ;
+    background-color: #ffffff;
+    border: 0;
+    padding: 14px;
+    border-radius:4px ;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+.call-to-action:hover {
+    transform: scale(1.1);
+}
+.about{
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about div {
+max-width: 50%;
+padding-right: 40px;
+
+}
+.about img{
+    max-width: 400px;
+    border-radius:6px ;
+}
+.about div h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    
+}
+.projects h2 {
+font-size: 42px;
+margin-bottom: 8px;
+ margin-top: 20px;
+
+}
+.projects p {
+    margin-bottom: 40px;
+    font-style: italic;
+}
+.projects-list {
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects img{
+    width: 22%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    opacity: 0.75;
+    transition: 0.9s;
+}
+.projects img:hover{
+    opacity: 1;
+    
+}
+
+.action{
+background-color: #181818;
+border: 0;
+padding: 12px 28px;
+border-radius:  4px; 
+font-size: 18px;
+color: #ffffff;
+margin-top: 18px;
+cursor: pointer;
+margin-bottom: 18px;
+}
+
+footer {
+
+    width: 100%;
+    background-color: #181818;
+    padding: 55px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+footer a{
+color: #ffffff;
+text-decoration: none;
+
+
+}
+footer p{
+    margin-left: 10px;
+}
+
+    
+
